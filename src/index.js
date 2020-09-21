@@ -31,7 +31,6 @@ module.exports = function (source) {
   if (typeof options.callback !== 'function') {
     throw new Error('input must function or arrow-function')
   }
-  console.log(options.callback)
   const codeBody = babelParser.parse(options.callback.toString()).program.body[0]
   traverse(ast, {
     AwaitExpression(path) {
