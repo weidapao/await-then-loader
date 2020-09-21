@@ -6,9 +6,16 @@
   "scripts": {
     "test": "node ./index.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weidapao/await-then-loader"
+  },
+  "author": "weizy",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/parser": "^7.11.5",
